@@ -1,0 +1,44 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Dependencies (will be installed in Docker)
+/node_modules
+/vendor
+
+# Build artifacts (will be built in Docker)
+/public/build
+/public/hot
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+/tests
+phpunit.xml
+.phpunit.result.cache
+
+# Documentation
+README.md
+CLAUDE.md
+*.md
+
+# Docker
+Dockerfile
+docker-compose*.yml
+
+# Cached files (will be regenerated)
+/bootstrap/cache/*.php
+
+# Misc
+.editorconfig
+.styleci.yml
